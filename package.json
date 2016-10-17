@@ -15,5 +15,8 @@
     "grunt-babel": "^6.0.0",
     "grunt-browserify": "^5.0.0",
     "load-grunt-tasks": "^3.5.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
   }
 }

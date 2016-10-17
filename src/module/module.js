@@ -1,10 +1,9 @@
-module.exports = class Persona {
-  constructor (nombre, edad) {
-    this.nombre = nombre
-    this.edad = edad
-  }
+import $ from 'jquery';
 
-  saludar () {
-    return `Hola! Me llamo ${this.nombre} y tengo ${this.edad} años`
-  }
-}
+export function render(container) {
+  var el = $('<div class="widget">aksmlkamskla</div>');
+  $(el).click(function() {
+    console.log('widget click');
+  });
+  $(container).append(el);
+};
